@@ -26,7 +26,7 @@ try {
 }
 catch (MyException $e)
 {
-    echo 'exception';
+    echo 'exception from MyException';
 }
 catch (Exception $e)
 {
